@@ -7,7 +7,7 @@
   "homepage": "https://procurepro.netlify.app",
   "repository": {
     "type": "git",
-    "url": "https://github.com/your-username/procurepro.git"
+    "url": "https://github.com/CrunchyCoder/procurepro.git"
   },
   "dependencies": {
     "@types/node": "^20.10.0",
@@ -18,20 +18,9 @@
     "react-scripts": "5.0.1",
     "typescript": "^5.3.3",
     "lucide-react": "^0.300.0",
-    "@supabase/supabase-js": "^2.38.5",
     "web-vitals": "^3.5.0"
   },
   "devDependencies": {
-    "@tailwindcss/forms": "^0.5.7",
-    "@tailwindcss/typography": "^0.5.10",
-    "autoprefixer": "^10.4.16",
-    "postcss": "^8.4.32",
-    "tailwindcss": "^3.4.0",
-    "@typescript-eslint/eslint-plugin": "^6.15.0",
-    "@typescript-eslint/parser": "^6.15.0",
-    "eslint": "^8.56.0",
-    "eslint-plugin-react": "^7.33.2",
-    "eslint-plugin-react-hooks": "^4.6.0",
     "netlify-cli": "^17.10.1"
   },
   "scripts": {
@@ -40,8 +29,6 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "lint": "eslint src --ext .ts,.tsx --fix",
-    "type-check": "tsc --noEmit",
     "deploy": "netlify deploy --prod --dir=build",
     "preview": "netlify deploy --dir=build"
   },
